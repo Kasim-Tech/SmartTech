@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald:wght@300&family=Poppins&family=Roboto+Slab:wght@500&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+
+
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    /* overflow-x: hidden; */
+}
+.logo {
+    color: #1e96fc;
+    font-size: 20px;
+}
+
+.logo1 {
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+}
+span {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.right-bx {
+    display: flex;
+}
+
+.right-bx .account {
+    font-size: 20px;
+
+}
+
+.right-bx .account i {
+
+    padding: 3px 7px;
+}
+
+
+header nav {
+   
+    height: 7%;
+
+    margin: 5px auto;
+    justify-content: space-between;
+    display: flex;
+
+}
+.account {
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+h4 {
+    margin-top: 13px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+
+#nav1 .about{
+    background-color: #1e96fc;
+    border-radius: 9px;
+    color: whitesmoke;
+}
+
+header nav ul {
+    display: flex;
+
+    align-items: center;
+}
+
+
+header nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 3px 15px;
+    color: black;
+    border-radius: 10px;
+
+}
+
+header nav ul li:hover {
+    color: rgb(255, 255, 255);
+    background-color: #1e96fc;
+    /* border-radius: 10px; */
+    transition: 0.2s;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 3px;
+
+}
+
+header nav .right-bx ul li:nth-last-child(1) {
+    border: 1px solid black;
+    color: gray;
+    border-radius: 20px;
+    padding: 3px 20px;
+    font-weight: 500;
+
+}
+
+header nav .right-bx ul li:nth-last-child(1):hover {
+    background-color: rgba(100, 100, 100, 0.5);
+    color: black;
+
+}
+/* start */
+.uppar{
+    height: 90vh;
+    width: 100vw;
+    background: linear-gradient(to top,rgb(255, 255, 255) 20%,rgba(3, 190, 252,1.0)80%);
+}
+.headding h1{
+    text-align: center;
+   padding-top: 30px;
+   color: white;
+   font-size: 45px;
+   font-weight: bold;
+}
+.para{
+    width: 55%;
+    margin: auto;
+   align-items: center;
+}

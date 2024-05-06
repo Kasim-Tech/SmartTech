@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald:wght@300&family=Poppins&family=Roboto+Slab:wght@500&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+
+
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+header {
+    /* border: 1px solid black; */
+    /* width: 65%; */
+    height: 85vh;
+    margin: auto;
+    transition: .3s;
+}
+
+.logo {
+    color: #1e96fc;
+    font-size: 20px;
+}
+
+.logo1 {
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+span {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.right-bx {
+    display: flex;
+}
+
+.right-bx .account {
+    font-size: 20px;
+
+}
+
+.right-bx .account i {
+
+    padding: 3px 7px;
+}
+
+h4 {
+    margin-top: 13px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.account {
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+header nav {
+    /* border: 1px solid black; */
+    height: 7%;
+
+    margin: 5px auto;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+nav {
+    /* position: fixed; */
+}
+
+#nav1 li:first-child {
+    background-color: #1e96fc;
+    border-radius: 9px;
+    color: w;
+}
+
+header nav ul {
+    display: flex;
+
+    align-items: center;
+}
+
+header nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 3px 15px;
+    color: black;
+
+}
+
+header nav ul li:hover {
+    color: rgb(255, 255, 255);
+    background-color: #1e96fc;
+    border-radius: 10px;
+    transition: 0.4s;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 3px;
+
+}
+
+header nav .right-bx ul li:nth-last-child(1) {
+    border: 1px solid black;
+    color: gray;
+    border-radius: 20px;
+    padding: 3px 20px;
+    font-weight: 500;
+
+}
+
+header nav .right-bx ul li:nth-last-child(1):hover {
+    background-color: rgba(100, 100, 100, 0.5);
+    color: black;
+
+}
+
+header .content {
+    position: relative;
+    /* width: 100%; */
+    height: 100%;
+    border: 1px solid black;
+    z-index: 5;
+}
+
+.content {
+    background-image: url(img/bg.webp);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 93%;
+    margin-top: 100px;
+    /* margin-bottom: 200px; */
+    margin: auto;
+    /* overflow: hidden; */
+}
+
+.brand ul li {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 50px;
+
+
+}
+
+.brand ul li:hover {
+    color: #1e96fc;
+    font-size: 21px;
+    overflow: hidden;
+    text-decoration: underline #1e96fc
+}
+
+.brand {
+
+
+    margin-left: 25px;
+    padding: 0px 0px;
+    line-height: 60px;
+
+
+}
+
+.mbtn {
+    font-size: 20px;
+    border-radius: 9px;
+    padding: 5px;
+    margin-top: 50px;
+    border-style: none;
+}
+
+.mbtn:hover {
+    color: white;
+    background-color: #1e96fc;
+    box-shadow: 0px 1px 2px 1px whitesmoke;
+    cursor: pointer;
+}
+
+ul li {
+    /* margin-top: 140px; */
+    width: fit-content;
+}
+
+
+
+
+
+.tex {
+    color: #1e96fc;
+    font-size: 20px;
+    font-size: 30px;
+}
+
+.Text1 {
+    margin-top: -400px;
+    margin-left: 550px;
+
+}
+
+.Text {
+
+    position: absolute;
+    /* text-align: center; */
+    /* margin-top: 50px; */
+    /* margin-left: 550px; */
+    animation: tex 3s infinite steps(19);
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid white;
+
+}
+
+@keyframes tex {
+    0% {
+        width: 0ch;
+    }
+
+    100% {
+        width: 19ch;
+    }
+}
+
+/* SECOND PAGE CSS STARTED FROM HERE */
+
+.main2 {
+    /* background-image: url(secbg.jpg); */
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
+.secpg {
+    /* margin-top: 90px; */
+    display: flex;
+    scroll-behavior: smooth;
+
+}
+
+.secpg img {
+    border-radius: 9px;
+}
+
+.secpg {
+    /* width: 350px; */
+    text-align: center;
+    /* margin-top: 250px; */
+}
+
+.Android,
+.IOS,
+.Windows {
+    text-align: center;
+    width: 800px;
+    font-size: 10px;
+    margin-top: 30px;
+
+    justify-content: space-between;
+    /* height: auto; */
+}
+
+.logo_btn {
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.logo_btn:hover {
+    box-shadow: 0 1px 2px 1px black;
+    transition: 0.1s;
+}
+
+.cards {
+    padding-top: 50px;
+    display: flex;
+    height: 15rem;
+    gap: 1rem;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+
+.cards>div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    border-radius: 9px;
+
+}
+
+.cards>div:hover {
+    flex: 3;
+    border-radius: 9px;
+}
+
+.txt {
+    margin-top: 90px;
+    text-align: center;
+
+}
+
+.txt input {
+    border-radius: 9px;
+    padding: 2px;
+
+}
+
+.txt button {
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    margin-left: 3px;
+    padding: 3px;
+    cursor: pointer;
+    /* width: fit-content; */
+}
+
+.our_info {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -130px;
+    background-color: rgba(100, 100, 100, 0.5);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100vw;
+
+}
+
+.cont {
+    width: 50%;
+    margin-left: 350px;
+}
+
+.hedding span1 {
+    color: #1e96fc;
+}
+
+.img_oi img {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img_oi img:hover {
+    box-shadow: 1px 2px 1px 1px;
+}
+
+.logo2 img {
+    mix-blend-mode: multiply;
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.logo2 img:hover {
+    box-shadow: 2px 2px 2px 0px;
+
+}
+
+.last {
+    width: 100vw;
+    height: 100vh;
+}
+
+.last .content_searchbox {
+    display: flex;
+
+}
+
+.last .heading2 {
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.contact_l {
+    margin-left: 90px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.srarchbox {
+    margin-left: 140px;
+
+}
+
+.srarchbox input {
+    font-size: 20px;
+    padding: 10px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.srarchbox button {
+    font-size: 20px;
+    padding: 10px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropD {
+    margin-left: 200px;
+
+}
+
+.dropD select {
+
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.dropD select {
+    font-size: 15px;
+}
+
+.op {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.op img {
+    height: 250px;
+    width: 600px;
+}
+
+.text1 {
+    margin-top: 30px;
+    margin-left: 170px;
+    width: 600px;
+    line-height: 30px;
+}
+
+.text1 h1,
+.text2 h1 {
+    line-height: 50px;
+}
+
+.op2 {
+    display: flex;
+}
+
+.op2 img {
+    height: 200px;
+    width: 500px;
+    margin-left: 250px;
+
+}
+
+.op2 .text2 {
+    margin-left: 90px;
+    margin-top: 50px;
+    line-height: 28px;
+    width: 600px;
+}
+.footer2{
+    background-color: rgba(83, 80, 80, 0.5);
+    padding-bottom: 30px;
+}
+
+.footer {
+    /* background-color: rgba(83, 80, 80, 0.5); */
+    width:100%;
+    /* height: 100%; */
+    margin-top:20px;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+
+
+.footer .head .head_cont {
+    /* text-decoration: underline; */
+    cursor: pointer;
+
+
+}
+
+.footer .head .head_cont ul:hover {
+    color: black;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+.footer .head ul {
+    width: max-content;
+}
+.footer2 .singup{
+    text-align: center;
+   
+}
+.footer2 .singup input{
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+.pp{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.pp:hover{
+    color: #005daf;
+    cursor: pointer;
+}
